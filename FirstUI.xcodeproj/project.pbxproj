@@ -13,6 +13,11 @@
 		39C2FA34282C65C100F23D24 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39C2FA33282C65C100F23D24 /* Preview Assets.xcassets */; };
 		39C2FA3B282C723100F23D24 /* BookDetailButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C2FA3A282C723100F23D24 /* BookDetailButton.swift */; };
 		39C2FA3D282C734000F23D24 /* BuyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C2FA3C282C734000F23D24 /* BuyButton.swift */; };
+		39EAB939282DBB15007FDE34 /* BookDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EAB938282DBB15007FDE34 /* BookDetailView.swift */; };
+		39EAB93B282DBBA1007FDE34 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EAB93A282DBBA1007FDE34 /* Book.swift */; };
+		39EAB93D282DBDEE007FDE34 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EAB93C282DBDEE007FDE34 /* CartView.swift */; };
+		39EAB93F282DBE8E007FDE34 /* BookCartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EAB93E282DBE8E007FDE34 /* BookCartCell.swift */; };
+		39EAB941282DC0C5007FDE34 /* CartTotalCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EAB940282DC0C5007FDE34 /* CartTotalCellView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +28,11 @@
 		39C2FA33282C65C100F23D24 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		39C2FA3A282C723100F23D24 /* BookDetailButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailButton.swift; sourceTree = "<group>"; };
 		39C2FA3C282C734000F23D24 /* BuyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyButton.swift; sourceTree = "<group>"; };
+		39EAB938282DBB15007FDE34 /* BookDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailView.swift; sourceTree = "<group>"; };
+		39EAB93A282DBBA1007FDE34 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		39EAB93C282DBDEE007FDE34 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		39EAB93E282DBE8E007FDE34 /* BookCartCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCartCell.swift; sourceTree = "<group>"; };
+		39EAB940282DC0C5007FDE34 /* CartTotalCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartTotalCellView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +71,11 @@
 				39C2FA32282C65C100F23D24 /* Preview Content */,
 				39C2FA3A282C723100F23D24 /* BookDetailButton.swift */,
 				39C2FA3C282C734000F23D24 /* BuyButton.swift */,
+				39EAB938282DBB15007FDE34 /* BookDetailView.swift */,
+				39EAB93A282DBBA1007FDE34 /* Book.swift */,
+				39EAB93C282DBDEE007FDE34 /* CartView.swift */,
+				39EAB93E282DBE8E007FDE34 /* BookCartCell.swift */,
+				39EAB940282DC0C5007FDE34 /* CartTotalCellView.swift */,
 			);
 			path = FirstUI;
 			sourceTree = "<group>";
@@ -144,7 +159,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				39C2FA2F282C65BF00F23D24 /* ContentView.swift in Sources */,
+				39EAB941282DC0C5007FDE34 /* CartTotalCellView.swift in Sources */,
+				39EAB93D282DBDEE007FDE34 /* CartView.swift in Sources */,
+				39EAB93F282DBE8E007FDE34 /* BookCartCell.swift in Sources */,
 				39C2FA2D282C65BF00F23D24 /* FirstUIApp.swift in Sources */,
+				39EAB93B282DBBA1007FDE34 /* Book.swift in Sources */,
+				39EAB939282DBB15007FDE34 /* BookDetailView.swift in Sources */,
 				39C2FA3D282C734000F23D24 /* BuyButton.swift in Sources */,
 				39C2FA3B282C723100F23D24 /* BookDetailButton.swift in Sources */,
 			);
